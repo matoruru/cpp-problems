@@ -1,0 +1,14 @@
+{
+	"name": "AtCoder - C++",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"formulahendry.code-runner"
+			]
+		}
+	}
+}
