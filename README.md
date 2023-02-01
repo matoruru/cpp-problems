@@ -1,4 +1,4 @@
-# atcoder
+# cpp-problems
 
 ここで練習する:
 https://kenkoooo.com/atcoder/#/training/Boot%20camp%20for%20Beginners
