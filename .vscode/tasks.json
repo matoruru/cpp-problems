@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "atcoder_test",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "${workspaceFolder}/AtCoder_Problems/cptest.sh",
+            "args": [
+                "${file}",
+                "${fileDirname}"
+            ]
+        }
+    ]
+}
