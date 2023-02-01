@@ -7,6 +7,7 @@ int ans(int A, int B) {
       return i;
     }
   }
+  return -1;
 }
 
 int main() {
