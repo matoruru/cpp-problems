@@ -2,10 +2,20 @@
 using namespace std;
 
 int main() {
-  int A, B;
-  cin >> A >> B;
+  int N;
+  cin >> N;
+  int ANS[N + 1];
 
-  //cout << /*answer*/ << endl;
+  for (int Ai, i = 1; i <= N; i++) {
+    cin >> Ai;
+    ANS[Ai] = i;
+  }
+
+  cout << ANS[1];
+  for (int i = 2; i <= N; i++) {
+    cout << " " << ANS[i];
+  }
+  cout << endl;
 
   return 0;
 }

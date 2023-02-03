@@ -1,11 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-  int A, B;
-  cin >> A >> B;
+using ll = long long;
 
-  //cout << /*answer*/ << endl;
+int main() {
+  ll N, K;
+  cin >> N >> K;
+
+  cout << min(N % K, abs(N % K - K)) << endl;
 
   return 0;
 }
