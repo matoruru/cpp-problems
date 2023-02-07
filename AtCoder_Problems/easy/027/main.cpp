@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
 
 int main() {
-  int A, B;
-  cin >> A >> B;
+  ll N, A, B;
+  cin >> N >> A >> B;
 
-  //cout << /*answer*/ << endl;
+  cout << A * (ll)(N / (A + B)) + min(N % (A + B), A) << endl;
 
   return 0;
 }
