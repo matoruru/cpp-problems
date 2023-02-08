@@ -1,11 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define rep(i, c) for(int i = 0; i < (int)c; i++)
 
 int main() {
-  int A, B;
-  cin >> A >> B;
+  string S;
+  set<char> table;
+  cin >> S;
+  int len = S.size();
+  rep(i, len) table.insert(S.at(i));
 
-  //cout << /*answer*/ << endl;
+  if (table.size() == len) {
+    cout << "yes" << endl;
+  } else {
+    cout << "no" << endl;
+  }
 
   return 0;
 }

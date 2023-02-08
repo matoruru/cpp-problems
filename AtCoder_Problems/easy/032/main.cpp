@@ -2,10 +2,20 @@
 using namespace std;
 
 int main() {
-  int A, B;
-  cin >> A >> B;
+  int x = 0, N;
+  string S;
+  cin >> N >> S;
 
-  //cout << /*answer*/ << endl;
+  int max_ = 0;
+  for (int i = 0; i < N; i++) {
+    if (S.at(i) == 'I')
+      x++;
+    else
+      x--;
+      max_ = max(x, max_);
+  }
+
+  cout << max_ << endl;
 
   return 0;
 }
