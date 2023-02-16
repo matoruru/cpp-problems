@@ -2,10 +2,13 @@
 using namespace std;
 
 int main() {
-  int A, B;
-  cin >> A >> B;
-
-  //cout << /*answer*/ << endl;
-
+  int H, W;
+  cin >> H >> W;
+  for (int i = 0; i < H; i++) {
+    string line;
+    cin >> line;
+    cout << line << endl;
+    cout << line << endl;
+  }
   return 0;
 }

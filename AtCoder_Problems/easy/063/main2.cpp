@@ -8,20 +8,13 @@ int main() {
   for (int i = 1; i <= N; i++)
     cin >> a.at(i);
 
-  int breakNum = 0, idx = 1;
+  int breakNum = 1;
   for (int i = 1; i <= N; i++) {
-    if (a.at(i) != idx) {
+    if (a.at(i) == breakNum)
       breakNum++;
-      continue;
-    } else {
-      idx++;
-    }
   }
 
-  if (breakNum == N)
-    cout << -1 << endl;
-  else
-    cout << breakNum << endl;
+  cout << (breakNum == 1 ? - 1 : N - breakNum + 1) << endl;
 
   return 0;
 }
