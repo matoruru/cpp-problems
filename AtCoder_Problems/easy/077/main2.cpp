@@ -13,8 +13,8 @@ int main() {
   }
   sort(a.begin(), a.end());
   ll total = 0;
-  for (int i = N; i < n3; i += 2) {
-    total += a.at(i);
+  for (int i = 0; i < N; i++) {
+    total += a.at(N + i * 2);
   }
   cout << total << endl;
   return 0;
