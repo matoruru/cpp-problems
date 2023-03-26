@@ -8,4 +8,4 @@ problemFolder=$2
 
 cd "$problemFolder"
 g++ --std=c++17 -g "$cppFile" -o a.out
-oj test -c ./a.out -d ./test/
+oj test -c ./a.out -d ./tests/

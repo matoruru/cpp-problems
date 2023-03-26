@@ -7,7 +7,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "command": "${workspaceFolder}/AtCoder_Problems/cptest.sh",
+            "command": "${workspaceFolder}/cptest.sh",
             "args": [
                 "${file}",
                 "${fileDirname}"
